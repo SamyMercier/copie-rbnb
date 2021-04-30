@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.explore-container {
+    display: flex;
+    flex-direction: column;
+    margin: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 220px;
+}
+
+body h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.explore-container-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.explore-div {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.explore-image {
+    width: 64px;
+    height: 64px;
+}
+
+.explore-text {
+    margin-left: 10px;
+}
+
+.chezvous-container {
+    display: flex;
+    flex-direction: column;
+    margin: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 400px;
+}
+
+.chezvous-container-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.chezvous-div {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.chezvous-text {
+    font-size: 20px;
+    margin-top: 8px;
+}
