@@ -1,6 +1,7 @@
 body{
     margin:0;
 }
+
 .titre{
     width: 90%;
     margin :auto;
@@ -11,9 +12,8 @@ body{
     font-family:"Roboto",sans-serif;
     font-size:36px;
     line-height:1.6;
-    margin-bottom:0;
-    
-  }
+    margin-bottom:0; 
+}
  
   .titre h2{
     padding:0;
@@ -70,4 +70,119 @@ body{
     font-size:14px;
     line-height:1.6;
     margin-top:-6px;
-  }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+body img {
+    border-radius: 10px;
+}
+
+.explore-container {
+    display: flex;
+    flex-direction: column;
+    margin: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 220px;
+}
+
+body h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.explore-container-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.explore-div {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.explore-image {
+    width: 64px;
+    height: 64px;
+}
+
+.explore-text {
+    margin-left: 10px;
+}
+
+.chezvous-container {
+    display: flex;
+    flex-direction: column;
+    margin: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 470px;
+}
+
+.chezvous-container-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.chezvous-div {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.chezvous-text {
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.devenez-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 4%;
+    height: 490px;
+    background-image: url(https://a0.muscache.com/im/pictures/2595054e-d1d9-4fde-8046-58d51fcb3164.jpg?im_w=1680);
+    background-position: center;
+    border-radius: 10px;
+}
+
+.devenez-h2 {
+    color: white;
+    font-size: 55px;
+}
+
+.devenez-p {
+    color: white;
+    font-size: 18px;
+    width: 25%;
+    margin-top: 0px;
+}
+
+.devenez-p2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 10%;
+    height: 10%;
+    margin-top: 0px;
+    font-weight: bold;
+}
